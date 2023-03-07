@@ -1,0 +1,81 @@
+.div-form{
+    width: 49.2rem;
+    height: 26.2rem;
+    background: #FFFFFF;
+    box-shadow: 0rem .4rem 1rem rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+}
+.div-item{
+    display: flex;
+    justify-content: center;
+}
+
+.icons-form{
+    height: 1rem;
+    width: 1.4rem;
+}
+.txt-form{
+    margin-top: 6%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.54275rem;
+    line-height: 1rem;
+    color: #000000;
+}
+.input-form{
+    width: 100%;
+    border: .1rem solid rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+.button-entrar{
+    margin-top: 9%;
+    width: 100%;
+    height: 2.5rem;
+    background: #650000;
+    border-color:#650000;
+    border-radius: 2rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.54275rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    transition: .5s;
+}
+.button-entrar:hover{
+    background-color: #FFFFFF;
+    color: #650000;
+}
+
+/*SINGIN*/
+.div-formSing{
+    width: 49.2rem;
+    height: 35.2rem;
+    background: #FFFFFF;
+    box-shadow: 0rem .4rem 1rem rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+}
+.button-entrarWorker{
+    margin-top: 30%;
+    width: 100%;
+    height: 2.5rem;
+    background: #650000;
+    border-color:#650000;
+    border-radius: 2rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.54275rem;
+    line-height: 1.9rem;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    transition: .5s;
+}
+.button-entrarWorker:hover{
+    background-color: #FFFFFF;
+    color: #650000;
+}

@@ -1,0 +1,194 @@
+.card-carW{
+    height: 40rem;
+    border: 0.965583px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3.86233px 3.86233px rgba(0, 0, 0, 0.25);
+    border-radius: 9.65583px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10rem;
+}
+.inform-cardW{
+    display: flex;
+    flex-direction: row;
+}
+/*CONFIGURACION PARA LAS DOS CARDS*/
+#image-carW{
+    height: 38.2rem;
+    width: 45.3rem;
+}
+#mage-carWE{
+    margin-top: 5%;
+}
+#image-car-upload{
+    margin-top: 40%;
+    margin-left: 40%;
+}
+.model-carW{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.6348rem;
+    line-height: 5.6rem;
+    color: #000000;
+}
+.name-modelW{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.93117rem;
+    line-height: 2.4rem;
+    color: #000000;
+}
+.info-carW{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90%;
+    line-height: 1.4rem;
+    color: #000000;
+}
+.infW{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.3587rem;
+    line-height: 1.4rem;
+    color: #000000;
+}
+.info-titleownerW{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+    text-align: center;
+    color: #000000;
+}
+.info-ownerW{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+.infOW{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+/*buton editar*/
+.button-edit{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.editar{
+    border-radius: 50%;
+    background: #650000;
+    transition: .3s;
+}
+.editar:hover{
+    background: #000000;
+}
+#button-actualizar{
+    width: 100%;
+    background: #650000;
+    border-radius: 5px;
+    border-color: transparent;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.80513rem;
+    line-height: 2.2rem;
+    /* identical to box height */
+    color: #FFFFFF;
+    transition: .5s;
+}
+#button-actualizar:hover{
+    background: #FFFFFF;
+    color: #650000;
+    border-color: #650000;
+}
+/*iNPUTS*/
+#foto-car-upload{
+    height: 102%;
+    display: none;
+}
+
+
+/*Tablet*/
+@media only screen and (max-width:768px){
+    .card-carW{
+        height: 72rem;
+    }
+    .inform-cardW{
+        display: flex;
+        flex-direction: column;
+    }
+    .datos-carW{
+        display: flex;
+        flex-direction: row;
+        width: 60rem;
+    }
+    .image-carsW{
+        width: 70rem;
+        display: flex;
+        justify-content: center;
+    }
+    #image-carW{
+        height: 32.2rem;
+        width: 41.3rem;
+    }
+    .edit-confi{
+        width: 200%;
+    }
+    .EWC{
+        width: 90%;
+    }
+    #image-car-upload{
+        margin-top: 20%;
+        margin-left: 0%;
+        margin-bottom: 20%;
+    }
+    #button-actualizar{
+        font-size: 1.3rem;
+    }
+}
+/*Movil*/
+@media only screen and (max-width: 600px) {
+    .card-carW{
+        height: 72rem;
+    }
+    .inform-cardW{
+        display: flex;
+        flex-direction: column;
+    }
+    .datos-carW{
+        display: flex;
+        flex-direction: row;
+        width: 40rem;
+    }
+    #image-carW{
+        height: 32.2rem;
+        width: 41.3rem;
+    }
+    .edit-confi{
+        width: 200%;
+    }
+    #image-car-upload{
+        margin-top: 20%;
+        margin-left: 0%;
+        margin-bottom: 20%;
+    }
+    #button-actualizar{
+        font-size: 1.1rem;
+    }
+}

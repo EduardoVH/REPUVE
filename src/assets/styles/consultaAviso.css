@@ -1,0 +1,140 @@
+.body-aviso2{
+    height: 48.5rem;
+}
+.info-aviso2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title-aviso2{
+    margin-top: 8rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.6516rem;
+    line-height: 4rem;
+    text-align: center;
+    /* identical to box ¿eight */
+    color: #000000;
+}
+.subtitle-aviso2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    text-align: center;
+    color: #000000;
+}
+.number-aviso2{
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 5.37366rem;
+    line-height: 6.6rem;
+    text-align: center;
+    color: #000000;
+    text-emphasis: orangered;
+    -webkit-text-stroke: .25rem orangered;
+}
+.numbers-aviso2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.2rem;
+    line-height: 3.9rem;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+    
+}
+.horarios{
+    justify-content: center;
+}
+.horario-aviso2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    text-align: justify;
+    color: #000000;
+}
+.horas.aviso2{
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    text-align: justify;
+    color: #000000;
+}
+
+@media only screen and (max-width:768px){
+    .body-aviso2{
+        height: 40.5rem;
+    }
+    #aviso2{
+        margin-top: 8rem;
+        height: 25.8rem;
+        width: 37.118rem;
+    }
+    .title-aviso2{
+        margin-top: 5rem;
+        font-size: 3.6516rem;
+        line-height: 2.9rem;
+    }
+    .subtitle-aviso2{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    .number-aviso2{
+        font-size: 3.37366rem;
+        text-emphasis: orangered;
+        -webkit-text-stroke: .1rem orangered;
+    }
+    .numbers-aviso2{
+        font-size: 2rem;
+    }
+    .horario-aviso2{
+        font-size: 1.8rem;
+    }
+    .horas-aviso2{
+        font-size: 1.5rem;
+    }
+
+}
+/*Movil*/
+@media only screen and (max-width: 600px) {
+    .body-aviso2{
+        height: 40.5rem;
+    }
+    #aviso2{
+        margin-top: 8rem;
+        height: 23.8rem;
+        width: 30.118rem;
+    }
+    .title-aviso2{
+        margin-top: 5rem;
+        font-size: 2.6516rem;
+        line-height: 2.9rem;
+    }
+    .subtitle-aviso2{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .number-aviso2{
+        font-size: 2.37366rem;
+        text-emphasis: orangered;
+        -webkit-text-stroke: .1rem orangered;
+    }
+    .numbers-aviso2{
+        font-size: 1.7rem;
+    }
+    .horario-aviso2{
+        font-size: 1.4rem;
+    }
+    .horas-aviso2{
+        font-size: 1.2rem;
+    }
+}

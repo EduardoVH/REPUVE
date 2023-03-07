@@ -1,0 +1,115 @@
+.card-car-view-container{
+    width: 101rem;
+    height: 38.035rem;
+    background: #FFFFFF;
+    border: 0.0965583rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0rem .386233rem .386233rem rgba(0, 0, 0, 0.25);
+    border-radius: .965583rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.image-card{
+    width: 48.3rem;
+    height: 36.2rem;
+    background: #D9D9D9;
+    border-radius: .965583rem 0rem 0rem .965583rem;
+}
+#img-car{
+    border-radius: .965583rem 0rem 0rem .965583rem;
+    width: 48.3rem;
+    height: 36.2rem;
+}
+.info-card{
+    width: 40.9rem;
+    height: 36.2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.model-car{
+    font-size: 4.6348rem;
+    line-height: 5.6rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+}
+.name-model{
+    font-size: 1.93117rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2.4rem;
+}
+.info{
+    font-size: 1.54493rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.9rem;
+}
+.subtitle{
+    font-size: 1.1587rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.4rem;
+}
+.info-dueño{
+    height: 2.4rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    text-align: center;
+}
+.datos-dueño{
+    height: 1.7rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    text-align: center;
+}
+.datos{
+    height: 1.7rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    text-align: center;
+}
+/*FLECHA*/
+.container-flecha{
+    background: #650000;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    margin-bottom: 30rem;
+}
+.container-flecha:hover{
+    background: transparent;
+    border: 1px solid #650000;
+}
+/*AQUI ENTRA EL DISEÑO DE CARD DEL TRABAJADOR*/
+.edit{
+    width: 12rem;
+}
+.name-owner{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    /* identical to box height */
+    text-align: center;
+}

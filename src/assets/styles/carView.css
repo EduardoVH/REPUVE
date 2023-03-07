@@ -1,0 +1,35 @@
+.regreso{
+    background: #650000;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    border-color: #650000;
+    transition: .5s;
+}
+.regreso:hover{
+    background-color: black;
+    border-color: black;
+}
+
+
+@media only screen and (max-width:768px){
+    .title-consulta{
+        font-size: 2.5rem;
+        line-height: 2rem;
+    }
+    #lupa{
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+}
+/*Movil*/
+@media only screen and (max-width: 600px) {
+    .title-consulta{
+        font-size: 1.9rem;
+        line-height: 2rem;
+    }
+    #lupa{
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+}

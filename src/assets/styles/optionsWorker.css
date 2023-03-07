@@ -1,0 +1,68 @@
+.opciones-trabajador{
+    background: #D9D9D9;
+    border-radius: 1rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    background-color: transparent;
+    border-color: transparent;
+}
+a{
+    text-decoration: none;
+}
+.options{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.8303rem;
+    line-height: 6rem;
+    /* identical to box height */    
+    color: #000000;
+    transition: .1s;
+}
+.options:hover{
+    font-weight: 500;
+}
+
+#icon-home{
+    height: 4rem;
+    width: 4rem;
+}
+#columnaHome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Tablet*/
+@media only screen and (max-width:768px){
+    .opciones-trabajador{
+        height: 4rem;
+    }
+    .options{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    #icon-home{
+        height: 2rem;
+        width: 2rem;
+    }
+}
+/*Movil*/
+@media only screen and (max-width: 600px) {
+    .opciones-trabajador{
+        height: 4rem;
+    }
+    .options{
+        font-size: 1.1303rem;
+        line-height: 1rem;
+    }
+    #icon-home{
+        height: 2rem;
+        width: 2rem;
+    }
+
+}

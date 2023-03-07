@@ -1,0 +1,44 @@
+.car{
+    width: 30rem;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.link-from-car{
+    background: rgba(255, 255, 255, 0.79);
+    backdrop-filter: blur(7.5px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 1rem 1rem 0rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+#button-listCar{
+    border-radius: 10%;
+    background: #650000;
+    border-color: transparent;
+    transition: .5s;
+}
+#button-listCar:hover{
+    background: black;
+}
+#fotoCarroList{
+    width: 100%;
+    height: 100%;
+}
+
+/*Tablet*/
+@media only screen and (max-width:768px){
+    .car{
+        width: 25%;
+    }
+
+}
+/*Movil*/
+@media only screen and (max-width: 600px) {
+    .car{
+        width: 25%;
+    }
+}

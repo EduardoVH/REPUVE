@@ -1,0 +1,34 @@
+.container-worker-home{
+    display: flex;
+    width: 100%;
+}
+.container-content{
+    width: 35%;
+    text-align: center;
+}
+.container-image{
+    display: flex;
+    width: 100%;
+}
+.home-worker{
+    width: 30%;
+}
+
+.h1-cont-work{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.h2-cont-work{
+    font-weight: normal;
+    font-size: 1.5rem;
+    width: 70%;
+    margin: auto;
+}
+.h3-cont-work{
+    color: white;
+    font-weight: normal;
+    font-size: 1.5rem;
+    width: 70%;
+    margin: auto;
+    background: #650000;
+}

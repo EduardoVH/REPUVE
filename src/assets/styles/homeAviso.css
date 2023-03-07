@@ -1,0 +1,170 @@
+.container-aviso{
+    display: flex;
+    background-color: #13322B;
+    color: white;
+    width: 100%;
+}
+
+.container-img{
+    width: 70%;
+}
+.container-inf{
+    width: 30%;
+    text-align: center;
+}
+
+
+.h1-cont-aviso{
+    font-weight: bolder ;
+    text-decoration-line: initial;
+    text-emphasis: orangered;
+    font-size: 3rem;
+    -webkit-text-stroke: 1px orangered;
+}
+.h2-cont-aviso{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.h3-cont-aviso{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+
+/*CSS DE REDISEÑO*/
+.imagem-aviso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#aviso{
+    margin-top: 3rem;
+}
+.aviso-importante{
+    width: 100%;
+    background-color: #13322B;
+    height: 48.5rem;
+}
+.info-aviso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+.title-aviso{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.6516rem;
+    color: #FFFFFF;
+}
+.subtitle-aviso{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+.number-aviso{
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 5.37366rem;
+    text-align: center;
+    color: #FFFFFF;
+    text-emphasis: orangered;
+    -webkit-text-stroke: .3rem orangered;
+}
+.numbers-aviso{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.2rem;
+    line-height: 3.9re;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+.hours-aviso{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: justify;
+    color: #FFFFFF;
+}
+.days-aviso{
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 250;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+
+/*Tablet*/
+@media only screen and (max-width:768px){
+    #aviso{
+        margin-top: 12rem;
+        height: 33.8.8rem;
+        width: 40.118rem;
+    }
+    .title-aviso{
+        font-size: 3.6516rem;
+    }
+    .subtitle-aviso{
+        font-size: 1.3rem;
+    }
+    .number-aviso{
+        font-size: 3.37366rem;
+        text-emphasis: orangered;
+        -webkit-text-stroke: .1rem orangered;
+    }
+    .numbers-aviso{
+        font-size: 2.5rem;
+    }
+    .hours-aviso{
+        font-size: 2.4rem;
+    }
+    .days-aviso{
+        font-size: 1.7rem;
+    }
+}
+
+/*Movil*/
+@media only screen and (max-width: 600px){
+    .aviso-importante{
+        height: 38.5rem;
+        width: 100%;
+    }
+    #aviso{
+        margin-top: 8rem;
+        height: 23.8rem;
+        width: 30.118rem;
+    }
+    .title-aviso{
+        font-size: 2.6516rem;
+    }
+    .subtitle-aviso{
+        font-size: 1rem;
+    }
+    .number-aviso{
+        font-size: 2.37366rem;
+        text-emphasis: orangered;
+        -webkit-text-stroke: .1rem orangered;
+    }
+    .numbers-aviso{
+        font-size: 1.7rem;
+    }
+    .hours-aviso{
+        font-size: 1.4rem;
+    }
+    .days-aviso{
+        font-size: 1.2rem;
+    }
+}

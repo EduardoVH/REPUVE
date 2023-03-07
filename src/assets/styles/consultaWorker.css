@@ -1,0 +1,90 @@
+.div-formularioBusqueda{
+    margin-top: 9.1rem;
+}
+.div-botonBusqueda{
+    margin-top: 5.7rem;
+}
+.busqueda-ley{
+    margin-top: 21.9rem;
+    margin-bottom: 11rem;
+}
+.title-busquedaWorker{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 4rem;
+    /* identical to box height */
+    color: #000000;
+}
+#input-busqueda{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    height: 4.7rem;
+}
+.button-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buscarVehiculo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 3rem;
+    background: #650000;
+    border-radius: .946296rem;
+    border-color: #650000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.1rem;
+    line-height: 3.7rem;
+    /* identical to box height */
+    color: #FFFFFF;
+    transition: .5s;
+}
+.buscarVehiculo:hover{
+    background-color: #FFFFFF;
+    color: #650000;
+}
+.buscarVehiculoForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/*Tablet*/
+@media only screen and (max-width:768px){
+    .title-busquedaWorker{
+        font-size: 2rem;
+        line-height:  2rem;
+    }
+    #input-busqueda{
+        font-size: 1.8rem;
+        height: 2.7rem;
+    }
+    .buscarVehiculo{
+        font-size: 1.7rem;
+        line-height: 3.7rem;
+    }
+}
+/*Movil*/
+@media only screen and (max-width: 600px) {
+    .title-busquedaWorker{
+        font-size: 1.6rem;
+        line-height:  2rem;
+    }
+    #input-busqueda{
+        font-size: 1.4rem;
+        height: 2.7rem;
+    }
+    .buscarVehiculo{
+        font-size: 1.7rem;
+        line-height: 3.7rem;
+    }
+}

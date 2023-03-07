@@ -1,0 +1,116 @@
+.RegisterAgency{
+    width: 100%;
+}
+.AllConten{
+    width: 100%;
+    display:flex;
+}
+.AllConten .RegisterConten{
+    width: 45%;
+    margin-top: 2%;
+}
+.AllConten .RegisterConten label{
+ margin-left: 30%;
+ font-size: 19px;
+
+}
+
+.AllConten .RegisterConten input{
+    margin-left: 30%;
+    margin-bottom: 4%;
+    border-radius: 5px;
+    padding: 1%;
+    width: 60%;
+    border: 1.89259px solid rgba(0, 0, 0, 0.2);
+}
+.AllConten .RegisterConten button{
+    margin-left: 40%;
+    border-radius: 5px;
+    padding: 1%;
+    width: 20%;
+    color: aliceblue;
+    background-color:  #650000;;
+    border: 1.89259px solid rgba(0, 0, 0, 0.2);
+}
+.Agency{
+    width: 30%;
+    height: 25%;
+    margin-top: 5%;
+}
+
+/*Rediseño de CSS*/
+.registroAgencia{
+    margin-top: 10%;
+}
+.info-agency{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #000000;
+}
+.inputclass{
+    height: 3.5rem;
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+}
+#image-agency{
+    width: 90%;
+    height: 90%;
+}
+.divbutton{
+    margin-top: 4%;
+    margin-bottom: 20%;
+}
+.button-registrar{
+    width: 100%;
+    height: 150%;
+    background: #650000;
+    border-radius: .5rem;
+    border-color: #650000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    /* identical to box height */
+    text-align: center; 
+    color: #FFFFFF;
+    transition: .3s;
+}
+.button-registrar:hover{
+    background-color: #FFFFFF;
+    color:#650000;
+}
+
+/*Tablet*/
+@media only screen and (max-width:768px){
+    .info-agency{
+        font-size: 1.5rem;
+    }
+    .inputclass{
+        height: 2.5rem;
+        font-size: 1rem;
+    }
+    .button-registrar{
+        height: 100%;
+        font-size: 1.2rem;
+    }
+}
+/*Movil*/
+@media only screen and (max-width: 600px) {
+    .info-agency{
+        font-size: 1.5rem;
+    }
+    .inputclass{
+        height: 2.5rem;
+        font-size: 1rem;
+    }
+    .button-registrar{
+        height: 100%;
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,20 @@
+.container-flecha-alineacion{
+    width: 121.622rem;
+    height: 4rem;
+    margin-bottom: 2.8rem;
+}
+
+#flechaLeft{
+    background: #650000;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+#flechaLeft:hover{
+    background: transparent;
+    border: 1px solid #650000;
+}

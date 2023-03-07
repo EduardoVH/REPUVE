@@ -1,0 +1,25 @@
+.body-container-prueba{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.encabezado-prueba{
+    width: 121.622rem;
+    height: 5.6rem;
+    margin-bottom: 4rem;
+}
+#Lupa{
+    width: 3rem;
+    height: 3rem;  
+}
+.title-encabezado{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.9rem;
+    color: #414141;
+}
+.division{
+    border: .1rem solid rgba(0, 0, 0, 0.2);
+}

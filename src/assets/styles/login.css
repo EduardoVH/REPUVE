@@ -1,0 +1,89 @@
+.regreso{
+    background-color: #650000;
+    border-radius: 50%;
+    transition: .5s;
+}
+.regreso:hover{
+    background-color: #000000;
+}
+.div-bottonregreso{
+    margin-top: 5%;
+}
+.div-title{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+}
+.title-login{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 6.57693rem;
+    line-height: 8rem;
+    text-align: center;
+    color: #000000;
+}
+.div-links{
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+}
+.div-crearCuenta{
+    display: flex;
+    justify-content: center;
+}
+.link-regreso{
+    text-decoration: none;
+    color: #000000;
+}
+.regresar{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.37153rem;
+    line-height: 1.7rem;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+#imagen-login{
+    width: 120%;
+}
+
+
+/*Tablet*/
+@media only screen and (max-width:768px){
+    .body-login{
+        display: flex;
+        flex-direction: column;
+    }
+    #imagen-login{
+        display: none;
+    }
+    .div-body-form{
+        width: 100%;
+        margin-bottom: 25%;
+    }
+    .title-login{
+        font-size: 5.57693rem;
+        line-height: 8rem;
+    }
+}
+/*Movil*/
+@media only screen and (max-width: 600px) {
+    .body-login{
+        display: flex;
+        flex-direction: column;
+    }
+    #imagen-login{
+        display: none;
+    }
+    .div-body-form{
+        width: 100%;
+        margin-bottom: 25%;
+    }
+    .title-login{
+        font-size: 5.57693rem;
+        line-height: 8rem;
+    }
+}

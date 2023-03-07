@@ -1,0 +1,32 @@
+.container-aviso{
+    display: flex;
+    background-color: #ffffff;
+    color: #242424;
+    width: 100%;
+}
+
+.container-img{
+    width: 70%;
+}
+.container-inf{
+    width: 30%;
+    text-align: center;
+}
+
+
+.h1-cont-avisoW{
+    font-weight: bolder ;
+    text-decoration-line: initial;
+    text-emphasis: orangered;
+    font-size: 3rem;
+    -webkit-text-stroke: 1px orangered;
+}
+.h2-cont-avisoW{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.h3-cont-avisoW{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+

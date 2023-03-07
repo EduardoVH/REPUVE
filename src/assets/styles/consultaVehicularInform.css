@@ -1,0 +1,14 @@
+.div-information-vehicularConsult{
+    background-color: #650000;
+    width: 40%;
+    color: white;
+    border-radius: 19px;
+    position: relative;
+    margin-top: 25px;
+    margin: auto;
+    text-align: center;
+}
+
+.content-information{
+    margin: 5px;
+}

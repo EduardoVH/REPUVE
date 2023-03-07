@@ -1,0 +1,28 @@
+.logInComp{
+    display: flex;
+}
+
+.container-form{
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+}
+
+.container-img-section{
+    width: 50%;
+}
+
+.logInForm{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    align-self: center;
+    justify-self: center;
+}
+
+.bttn-access{
+    background-color: #650000;
+    color: #FFFFFF;
+    width: 25%;
+    margin: auto;
+}

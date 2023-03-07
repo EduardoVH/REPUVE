@@ -1,0 +1,105 @@
+.body-container{
+    margin-top: 4.5rem;
+}
+.title-home{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    color: #414141;
+}
+.subtitle-home{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #000000;
+}
+#logo{
+    height: 8rem;
+    width: 8rem;
+}
+.fila2{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.title-avisorepuve{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 5.1rem;
+    line-height: 6.7rem;
+    /* identical to box height */
+}
+.subtitle-avisorepuve{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    text-align: justify;
+    color: #000000;
+}
+#foto-aviso{
+    width: 43rem;
+    height: 46.1rem;
+    
+}
+
+/*Tablet*/
+@media only screen and (max-width:768px){
+    .title-home{
+        font-size: 2.8rem;
+    }
+    .subtitle-home{
+        font-size: .8rem;
+    }
+    #logo{
+        height: 4rem;
+        width: 4rem;
+    }
+    .title-avisorepuve{
+        font-size: 3.2rem;
+    }
+    .subtitle-avisorepuve{
+        font-size: 1.4rem;
+    }
+    #foto-aviso{
+        height: 27.1rem;
+        width: 30.5rem;
+    }
+    #image-aviso{
+        height: 2.8rem;
+        width: 20.7;
+    }
+}
+/*Movil*/
+@media only screen and (max-width: 600px) {
+    .title-home{
+        font-size: 2.8rem;
+    }
+    .subtitle-home{
+        font-size: .8rem;
+    }
+    #logo{
+        height: 4rem;
+        width: 4rem;
+    }
+    .title-avisorepuve{
+        font-size: 2.3rem;
+    }
+    .subtitle-avisorepuve{
+        font-size: 1.4rem;
+    }
+    #foto-aviso{
+        height: 22.1rem;
+        width: 20.5rem;
+    }
+    #image-aviso{
+        height: 2.8rem;
+        width: 20.7;
+    }
+}
+
+
+

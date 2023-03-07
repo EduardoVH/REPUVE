@@ -1,0 +1,96 @@
+
+.card-car{
+    height: 39rem;
+    border: 0.965583px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3.86233px 3.86233px rgba(0, 0, 0, 0.25);
+    border-radius: 9.65583px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10rem;
+}
+.inform-card{
+    display: flex;
+    flex-direction: row;
+}
+/*CONFIGURACION PARA LAS DOS CARDS*/
+#image-car{
+    margin-top: 1%;
+    height: 37.7rem;
+    width: 45.3rem;
+}
+.model-car{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.6348rem;
+    line-height: 5.6rem;
+    color: #000000;
+}
+.name-model{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.93117rem;
+    line-height: 2.4rem;
+    color: #000000;
+}
+.info-car{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    color: #000000;
+}
+.inf{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.3587rem;
+    line-height: 1.4rem;
+    color: #000000;
+}
+
+/*Tablet*/
+@media only screen and (max-width:768px){
+    .card-car{
+        height: 72rem;
+    }
+    .inform-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .datos-car{
+        display: flex;
+        flex-direction: row;
+        width: 60rem;
+    }
+    .image-cars{
+        width: 70rem;
+        display: flex;
+        justify-content: center;
+    }
+    #image-car{
+        height: 32.2rem;
+        width: 41.3rem;
+    }
+}
+/*Movil*/
+@media only screen and (max-width: 600px) {
+    .card-car{
+        height: 72rem;
+    }
+    .inform-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .datos-car{
+        display: flex;
+        flex-direction: row;
+        width: 40rem;
+    }
+    #image-car{
+        height: 32.2rem;
+        width: 41.3rem;
+    }
+}
+

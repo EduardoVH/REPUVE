@@ -1,0 +1,86 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1REM = 10px */
+    font-size: 1.6rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+
+/*Rediseño de CSS*/
+.header{
+    width: 100%;
+    background-color: #13322B;
+    height: 6rem;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    height: 6rem;
+}
+.opciones{
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 0rem;
+    color: #FFFFFF;
+    height: 6rem;
+}
+.icons-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6rem; 
+}
+#icon-perfil{
+    max-width: 3.5rem;
+    max-height: 3.5rem;
+}
+.cerrarSesion{
+    color: #FFFFFF;
+    background-color: #13322B;
+    border-color: transparent;
+}
+
+
+@media only screen and (max-width:768px){
+    #LogoMx{
+        width: 11rem;
+    }
+    .opciones{
+        font-size: 1rem;
+    }
+    .enlaces{
+        font-size: 1.2rem;
+    }
+    .cerrarSesion{
+        height: 100%;
+        width: 100%;
+    }
+}
+/*Movil*/
+@media only screen and (max-width: 600px) {
+    .link{
+        display: none;
+    }
+    .cerrarSesion{
+        height: 100%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,75 @@
+/*AQUI VA LA PARTE DE ¿QUE ES GOB.MX?*/
+
+/*/AQUI VA EL SIGUENOS Y LAS ICONOS DE REDES SOCIALES/*/
+.RedesSociales{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+.siguenos{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+/*Rediseño del CSS*/
+.container-footer{
+    height: 14rem;
+    background-color: #13322B;
+}
+.div-footer{
+    height: 14rem;
+}
+#Foto-Logo{
+    margin-top: 2rem;
+    width: 28.9rem;
+    height: 10.4rem;
+}
+.title-siguenos{
+    margin-top: 3rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+}
+.iconos{
+    display: flex;
+    flex-direction: row;
+}
+.icons{
+    width: 3rem;
+    height: 3rem;
+}
+
+/*Tablet*/
+@media only screen and (max-width:768px){
+    #Foto-Logo{
+        height: 5.4rem;
+        width: 18.9rem;
+    }
+    .title-siguenos{
+        font-size: 1.5rem;
+        line-height: 0rem;
+    }
+
+}
+/*Movil*/
+@media only screen and (max-width: 600px) {
+    #Foto-Logo{
+        margin-top: 4rem;
+        height: 5.4rem;
+        width: 18.9rem;
+    }
+    .title-siguenos{
+        margin-top: 5rem;
+        font-size: 1.5rem;
+        line-height: 0rem;
+    }
+
+}
+
